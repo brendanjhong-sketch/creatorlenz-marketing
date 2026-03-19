@@ -4,6 +4,9 @@
     { "src": "index.html", "use": "@vercel/static" }
   ],
   "routes": [
+    { "src": "/privacy", "dest": "https://app.creatorlenz.com/privacy", "status": 301 },
+    { "src": "/terms", "dest": "https://app.creatorlenz.com/terms", "status": 301 },
+    { "src": "/data-deletion", "dest": "https://app.creatorlenz.com/data-deletion", "status": 301 },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
